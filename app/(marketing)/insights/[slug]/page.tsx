@@ -35,7 +35,7 @@ export default async function InsightPage({ params }: PageProps) {
   }
 
   return (
-    <article className="container max-w-3xl py-16 md:py-24">
+    <article className="container mx-auto max-w-3xl py-16 md:py-24">
       <Button variant="ghost" asChild className="mb-8">
         <Link href="/insights">
           <ArrowLeft className="mr-2 h-4 w-4" />

@@ -5,7 +5,7 @@ import { Linkedin, Twitter, Github } from "lucide-react"
 export function SiteFooter() {
   return (
     <footer className="border-t bg-muted/30">
-      <div className="container max-w-6xl py-12 md:py-16">
+      <div className="container mx-auto max-w-6xl py-12 md:py-16">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="text-xl font-bold">

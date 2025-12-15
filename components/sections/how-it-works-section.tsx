@@ -3,7 +3,7 @@ import { howItWorks } from "@/lib/constants"
 export function HowItWorksSection() {
   return (
     <section className="border-y bg-muted/30 py-24 md:py-32">
-      <div className="container max-w-6xl">
+      <div className="container mx-auto max-w-6xl">
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-balance md:text-4xl">How It Works</h2>
           <p className="text-lg text-muted-foreground text-pretty leading-relaxed">

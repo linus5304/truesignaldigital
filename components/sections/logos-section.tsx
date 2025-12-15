@@ -3,7 +3,7 @@ export function LogosSection() {
 
   return (
     <section className="border-y bg-muted/30 py-12">
-      <div className="container max-w-6xl">
+      <div className="container mx-auto max-w-6xl">
         <p className="mb-8 text-center text-sm font-medium text-muted-foreground">
           Expertise across major cloud platforms
         </p>

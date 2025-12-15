@@ -10,9 +10,9 @@ export default function MarketingLayout({
 }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-      <div className="relative flex min-h-screen flex-col">
+      <div className="relative flex min-h-screen flex-col mx-auto">
         <SiteHeader />
-        <main className="flex-1">{children}</main>
+        <main className="">{children}</main>
         <SiteFooter />
       </div>
     </ThemeProvider>

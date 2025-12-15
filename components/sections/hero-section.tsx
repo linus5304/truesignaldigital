@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="container max-w-6xl py-24 md:py-32 lg:py-40">
+    <section className="container mx-auto max-w-6xl py-24 md:py-32 lg:py-40">
       <div className="mx-auto max-w-4xl text-center">
         <h1 className="mb-6 text-4xl font-bold tracking-tight text-balance sm:text-5xl md:text-6xl lg:text-7xl">
           Security + Cloud Ops, verification-first.
